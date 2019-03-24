@@ -1,0 +1,12 @@
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\DalFile.dll.config
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\DalFile.dll
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\DalFile.pdb
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\EntityFramework.dll
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\EntityFramework.xml
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\obj\Debug\DalFile.csprojAssemblyReference.cache
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\obj\Debug\DalFile.csproj.CoreCompileInputs.cache
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\obj\Debug\DalFile.csproj.CopyComplete
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\obj\Debug\DalFile.dll
+C:\Users\roiho\Desktop\software develop\ASP.net\project\shoppingsite\DalFile\obj\Debug\DalFile.pdb

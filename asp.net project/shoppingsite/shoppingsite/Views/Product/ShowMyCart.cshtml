@@ -1,0 +1,48 @@
+﻿@model IEnumerable<DalFile.model.Product>
+
+@{
+    ViewBag.Title = "MyCart";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+<div class="row">
+    @foreach (var item in @Model)
+    {
+    <div class="col-lg-2">
+        @if (item.Picture1 != null)
+        {<img class="card-img-top img-fluid myImg" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Picture1, 0, item.Picture1.Length)" />
+        }
+        else
+        {
+            <img class="card-img-top img-fluid" alt="No Image" />
+        }
+        @if (Request.Cookies["registered"] != null)
+        {
+            <div class="card-body myProduct">
+                Title: @item.Title<br />
+                Description: @item.ShortDescription<br />
+                Price: @item.Price<br/>
+                Price For You: @(item.Price*0.9)
+            </div>
+        }
+        else
+        {
+            <div class="card-body myProduct">
+                Title: @item.Title<br />
+                Description: @item.ShortDescription<br />
+                Price: @item.Price 
+            </div>
+        }
+
+        <div class="container-fluid">
+            <input class="btn btn-primary btn-block" type="button" value="remove product"
+                   onclick="location.href='@Url.Action("RemoveFromCart", "Product", new { id = item.Id })'" />
+            <input class="btn btn-primary btn-block" type="button" value="Buy"
+                   onclick="location.href='@Url.Action("BuyProduct", "Product", new { id = item.Id })'" />
+        </div>
+
+    </div>
+
+    }
+</div>
+

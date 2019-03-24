@@ -1,0 +1,38 @@
+﻿@model IEnumerable<DalFile.model.Product>
+
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+
+    @Html.ActionLink("Sort BY Name", "SortByName")
+    <p></p>
+    @foreach (var item in @Model)
+    {
+        <div class="col-lg-2">
+            @if (item.Picture1 != null)
+            {<img class="card-img-top img-fluid myImg" src="data:image/jpeg;base64,@Convert.ToBase64String(item.Picture1, 0, item.Picture1.Length)" />
+            }
+            else
+            {
+                <img class="card-img-top img-fluid" alt="No Image" />
+            }
+            <div class="card-body myProduct">
+                Title: @item.Title<br />
+                Description: @item.ShortDescription<br />
+                Price: @item.Price
+            </div>
+            <div class="container-fluid">
+                <input class="btn btn-primary btn-block" type="button" value="View Details" onclick="location.href='@Url.Action("ProductDetails", "Product", new { id = item.Id })'" />
+                <input class="btn btn-primary btn-block" type="button" value="Add To Cart" onclick="location.href='@Url.Action("AddToCart", "Product", new { id = item.Id })'" />
+            </div>
+        </div>
+    }
+
+</div>
+
+
+

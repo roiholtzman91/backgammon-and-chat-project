@@ -1,0 +1,20 @@
+﻿@model shoppingsite.Models.SignIn
+
+<h3>Sign In</h3>
+
+@if (Request.Cookies["registered"] != null)
+{
+    <p>Welcome @Request.Cookies["registered"]["UserName"]</p>
+    @Html.ActionLink("Log Off", "LogOff", "User")
+}
+else
+{
+    using (Html.BeginForm("LoginVerify", "User"))
+    {
+        @Html.EditorForModel()
+        @ViewBag.ErrorLogin
+        <input type="submit" value="sign in" /> @Html.ActionLink("register", "Register", "User")
+    }
+
+}
+

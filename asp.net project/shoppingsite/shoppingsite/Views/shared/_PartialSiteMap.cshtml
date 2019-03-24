@@ -1,0 +1,27 @@
+﻿
+<h3> Site Map</h3>
+
+@if (Request.Cookies["registered"] != null)
+{
+    <br />@Html.ActionLink("Home Page", "Index", "Home")
+
+    <br />@Html.ActionLink("Update Details", "LoadUserDetails", "User")
+
+    <br />@Html.ActionLink("About Us", "About", "Home")
+
+    <br />@Html.ActionLink("My Cart", "ShowMyCart", "Product")
+
+    <br />@Html.ActionLink("publish product", "AddProduct", "Product")
+
+}
+
+else
+{
+    <br />@Html.ActionLink("Home Page", "Index", "Home")
+
+    <br />@Html.ActionLink("About Us", "About", "Home")
+
+    <br />@Html.ActionLink("My Cart", "ShowMyCart", "Product")
+}
+
+
