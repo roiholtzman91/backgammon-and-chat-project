@@ -1,0 +1,11 @@
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\דודו\source\repos\Backgammon\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\roiho\Desktop\Backgammon\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\roiho\Desktop\Backgammon\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\roiho\Desktop\Backgammon\ClassLibrary1\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\roiho\Desktop\Backgammon\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\roiho\Desktop\Backgammon\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

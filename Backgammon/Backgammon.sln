@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Backgammon\Client.csproj", "{CA04BCEA-CF41-4C3C-A445-C5AC2136AA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{D52C3EBB-4F14-4CC2-A1BA-646A513514BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "ClassLibrary1\Common.csproj", "{4B080B0E-A1D4-4196-AA2F-57248C89FB88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA04BCEA-CF41-4C3C-A445-C5AC2136AA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA04BCEA-CF41-4C3C-A445-C5AC2136AA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA04BCEA-CF41-4C3C-A445-C5AC2136AA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA04BCEA-CF41-4C3C-A445-C5AC2136AA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52C3EBB-4F14-4CC2-A1BA-646A513514BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52C3EBB-4F14-4CC2-A1BA-646A513514BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52C3EBB-4F14-4CC2-A1BA-646A513514BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52C3EBB-4F14-4CC2-A1BA-646A513514BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B080B0E-A1D4-4196-AA2F-57248C89FB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B080B0E-A1D4-4196-AA2F-57248C89FB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B080B0E-A1D4-4196-AA2F-57248C89FB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B080B0E-A1D4-4196-AA2F-57248C89FB88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45056973-68BC-4D4E-9788-314A1F942CBD}
+	EndGlobalSection
+EndGlobal

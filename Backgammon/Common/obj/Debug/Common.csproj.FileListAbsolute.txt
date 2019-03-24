@@ -1,0 +1,2 @@
+C:\Users\דודו\source\repos\Backgammon\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\דודו\source\repos\Backgammon\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
